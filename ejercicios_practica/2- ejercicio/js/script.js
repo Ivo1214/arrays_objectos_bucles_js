@@ -25,6 +25,12 @@ const icono_agua = "./images/water_type.png";
 const estiloClase_agua = "agua"
 
 // Alumno: Genere un objeto llamado "tipoAgua" con todos los datos del pokemon tipo agua
+const tipoAgua = {
+    titulo: titulo_agua,
+    descripcion: descripcion_agua,
+    icono: icono_agua,
+    estiloClase: estiloClase_agua
+}
 
 
 // Tipo planta
@@ -34,6 +40,12 @@ const icono_planta = "./images/grass_type.png";
 const estiloClase_planta = "planta"
 
 // Alumno: Genere un objeto llamado "tipoPlanta" con todos los datos del pokemon tipo planta
+const tipoPlanta = {
+    titulo: titulo_planta,
+    descripcion: descripcion_planta,
+    icono: icono_planta,
+    estiloClase: estiloClase_planta
+}
 
 // Tipo Electricidad
 const titulo_electrico = "Tipo Electricidad"
@@ -42,6 +54,12 @@ const icono_electrico = "./images/electric_type.png";
 const estiloClase_electrico = "electricidad"
 
 // Alumno: Genere un objeto llamado "tipoElectricidad" con todos los datos del pokemon tipo electricidad
+const tipoElectricidad = {
+    titulo: titulo_electrico,
+    descripcion: descripcion_electrico,
+    icono: icono_electrico,
+    estiloClase: estiloClase_electrico
+}
 
 // Tipo normal
 const titulo_normal = "Tipo Normal"
@@ -50,14 +68,26 @@ const icono_normal = "./images/normal_type.png";
 const estiloClase_normal = "normal"
 
 // Alumno: Genere un objeto llamado "tipoNormal" con todos los datos del pokemon tipo normal
+const tipoNormal = {
+    titulo: titulo_normal,
+    descripcion: descripcion_normal,
+    icono: icono_normal,
+    estiloClase: estiloClase_normal
+}
 
 // Tipo fuego
 const titulo_fuego = "Tipo Fuego"
 const descripcion_fuego = "Los Pokémon de tipo tipo fuego basan sus ataques, principalmente, en el control de este elemento; y la mayoría pueden quemar al Pokémon oponente, mientras que ellos no sufren quemaduras. Son apasionados y, algunos, de mal carácter (como el Charizard de Ash); viven en cuevas o zonas rocosas y muy áridas; y, más probable, aun cerca de volcanes activos. Sin embargo, los únicos Pokémon que aparentemente suelen andar por lugares verdes como las praderas, son Ponyta y Rapidash, pudiendo ser que estos lugares les permiten galopar sin obstáculos. También, algunos son más dóciles, como Growlithe, Vulpix y sus respectivas evoluciones."
 const icono_fuego = "./images/fire_type.png";
-const estiloClase_fuego = "normal"
+const estiloClase_fuego = "fuego"
 
 
 // Alumno: Genere un objeto llamado "tipoFuego" con todos los datos del pokemon tipo fuego
+const tipoFuego = {
+    titulo: titulo_fuego,
+    descripcion: descripcion_fuego,
+    icono: icono_fuego,
+    estiloClase: estiloClase_fuego
+}
 
 

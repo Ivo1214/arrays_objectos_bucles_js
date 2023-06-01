@@ -42,3 +42,30 @@ en "section".
 */
 
 /* Comienza a escribir su código aquí */
+
+let acumulador = "";
+for (const element of data) {
+  acumulador += `
+    <article>
+          <img
+            src=${element.thumbnail}
+            class="icon-type"
+            alt="icon type"
+          />
+          <p>
+            ${element.name}
+          </p>
+    </article>
+    `
+}
+document.querySelector("section").innerHTML = acumulador;
+
+let selector = document.querySelectorAll("article");
+for (const element of selector) {
+  element.addEventListener("mouseover", function(event){
+    element.classList.add("planta");
+  })
+  element.addEventListener("mouseout", function(event){
+    element.classList.remove("planta");
+  })
+}
